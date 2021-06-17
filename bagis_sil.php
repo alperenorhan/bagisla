@@ -8,7 +8,6 @@ $temp=$_POST["bagissiladi"];
 //echo $temp;
 
 
-// $sql="DELETE  FROM kitap WHERE Kitap_Sira=24";
 // $sonuc=$baglan->query($sql);
 $bagis_sayisi = "SELECT * FROM bagis";
 $bagis_sayi= $baglan->query($bagis_sayisi);
@@ -42,12 +41,6 @@ if($bagis_sayi1!=$bagis_sira){
   }
 
  
-
-
-//   for($i=$kitap_sira;$i<=$kitap_sayi1-1;$i++){
-//     $sql6 = "UPDATE kitap SET Kitap_Sira = '$i' WHERE Kitap_Sira = ($i+1)";
-//     $sonuc4=$baglan->query($sql6);
-// }
 
 
 ?>
